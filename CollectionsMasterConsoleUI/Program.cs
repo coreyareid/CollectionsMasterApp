@@ -13,7 +13,7 @@ namespace CollectionsMasterConsoleUI
             //Utlilize the method stubs at the bottom for the methods you must create ⬇⬇⬇
 
             #region Arrays
-            /*
+            
             //TODO: Create an integer Array of size 50
             int[] myNumbersArray = new int[51];
             
@@ -76,7 +76,7 @@ namespace CollectionsMasterConsoleUI
 
             #region Lists
             Console.WriteLine("************Start Lists**************");
-            */
+            
             /*   Set Up   */
             //TODO: Create an integer List
             List<int> myNumbersList = new List<int>();
@@ -123,7 +123,6 @@ namespace CollectionsMasterConsoleUI
             IsInList(myNumbersList);
             
             Console.WriteLine("-------------------");
-
             Console.WriteLine("All Numbers in list: ");
             NumberPrinter(myNumbersList);
             Console.WriteLine("-------------------");
@@ -138,6 +137,7 @@ namespace CollectionsMasterConsoleUI
                     list.RemoveAll(i => i % 2 != 0);
                 }
             }
+
             EvensOnly(myNumbersList);
             NumberPrinter(myNumbersList);
             Console.WriteLine("------------------");
